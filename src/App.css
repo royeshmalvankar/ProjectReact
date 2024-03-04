@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    /* border: 1px solid black; */
+    font-size:1.7em;
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+}
+.active{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight:620;
+}
+.active:hover{
+    color: Orange;
+}
+.navbar1{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 50px;
+    padding: 0.5rem 0.6rem;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+.navbar2{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 50 0 0px #fff, 50 0 0px #fff, 50 0 0px #fff, 50 0 0px #fff, 50 0 0px #fff, 50 0 0px #fff, 50 0 0px #fff;
+    }
+    to {
+      text-shadow: 0 0 50px #ed5b06, 0 0 50px #ed5b06, 0 0 50px #ed5b06, 0 0 50px #ed5b06, 0 0 50px #ed5b06, 0 0 50px #ed5b06, 0 0 50px #ed5b06;
+    }
+  }
+  .searchbar1{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-left: 50px;
+  }
+  .searchbar2{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  .searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+  }
+  .popover{
+    display: flex;
+    justify-content: center;
+  }
+  .popover>div>button{
+    font-size: 0.8rem;
+    color: #ed5b06;
+  }
+  .slideshow {
+    /* border: 1px solid black; */
+    border-radius: 1px ;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 70%;
+    margin-left: 50px;
+  }
+  
+  .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+  }
+  
+  .slide {
+    display: inline-block;
+  
+    height: 300px;
+    width: 100%;
+    /* border-radius: 40px; */
+  }
+  
+  /* Buttons */
+  
+  .slideshowDots {
+    text-align: center;
+  }
+  
+  .slideshowDot {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+  
+    cursor: pointer;
+    margin: 0px 5px 0px;
+  
+    background-color: lightgray;
+  }
+  
+  .slideshowDot.active {
+    background-color: #6a0dad;
+  }
+  .sec1{
+    display: flex;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+  }
+  .imge{
+    margin-right: 50px;
+  }
+  .sec2{
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+  }
+  .sec3{
+    /* border: 1px solid black; */
+    box-shadow:  0 7px 0 rgba(0,0,0,.14);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+ 
+  }
+  #carousel{
+    /* border:1px solid black; */
+    display: flex;
+    gap: 75px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+  }
+  #carousel>div>img{
+    height: 125px;
+    width: 125px;
+  }
+  #carousel>div{
+   
+    height: 125px;
+    width: 125px;
+
+  }
+  .sec3>div>p{
+    text-align: center;
+  }
+  .sec3>div{
+    padding: 10px;
+
+  }
+  .signup{
+    border:1px solid black;
+    text-align: center;
+   display: inline;
+   justify-content: center;
+  }
+  .form{
+    margin: auto;
+    width: 40%;
+    background-color: lightblue;
+    justify-content: center;
+  }
+  .cards{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+  }
+  .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    text-align: center;
+  }
+  .card>img{
+    display: inline;
+    justify-content: center;
+  }
